@@ -37,7 +37,6 @@ public class Metodos {
 
 	public void clical(By elemento) {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-
 		driver.findElement(elemento).click();
 
 	}

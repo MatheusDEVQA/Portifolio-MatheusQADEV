@@ -5,7 +5,6 @@ import org.openqa.selenium.By;
 public class Elementos {
 	private By pesquisa = By.id("search_query_top");
 	private By botaoVerde = By.cssSelector("a[href*='green']");
-
 	private By botaoSize = By.id("group_1");
 	private By botaoAdd = By.name("Submit");
 	private By botaoContinueCompra = By.cssSelector("span[title='Continue shopping']");
@@ -18,7 +17,7 @@ public class Elementos {
 	private By botaoAdress = By.name("processAddress");
 	private By pagamento = By.cssSelector("a[title='Pay by bank wire']");
 	private By carrinho = By.cssSelector("a[title='View my shopping cart']");
-	
+
 	private By email = By.id("email");
 	private By senha = By.id("passwd");
 	private By botaoLogin = By.id("SubmitLogin");
@@ -27,7 +26,6 @@ public class Elementos {
 	private By botaoCriar = By.id("SubmitCreate");
 
 	private By confirmar = By.xpath("//form/p/button");
-	// private By textoConfirmacao = By.cssSelector("p strong");
 
 	private By botaoIgree = By.id("cgv");
 
