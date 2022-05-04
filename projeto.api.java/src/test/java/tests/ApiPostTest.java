@@ -10,6 +10,6 @@ public class ApiPostTest {
 	@Test
 	public void teste() {
 		post.metodoPath("/api/users/2", 200);
-		//post.metodoPostCreate("/api/users");
+		post.metodoPostCreate("/api/users", 201);
 	}
 }
